@@ -26,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Working").setMessage("Hello");
+        builder.show();*/
+
         LayoutInflater inflater = getLayoutInflater();
         convertView = (View) inflater.inflate(R.layout.my_library_alertdialog, null);
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
